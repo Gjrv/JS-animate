@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Week-2 </title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/index-style.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body>
+  <button id="btn"></button>
+  <main class="main-page">
+    <div class="bg">
+      <div class="moon"></div>
+      <div class="sun"></div>
+      <canvas id="canvas1"></canvas>
+      <div class="cloud cloud0"></div>
+      <div class="cloud cloud1"></div>
+      <div class="cloud cloud2"></div>
+      <div class="snow"></div>
+    </div>
+
+    <nav class="left-mnu">
+      <ul>
+        <li id="main">
+          <a href="index.html">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="24px" height="24px">
+              <g>
+                <polygon fill="none" stroke="#4a5261" stroke-width="2" points="12,2 3,10 3,23 9,23 9,16 15,16 15,23 21,23 21,10">
+                </polygon>
+              </g>
+            </svg>
+            Главная
+          </a>
+        </li>
+        <li>
+          <a href="map.html">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="24px" height="24px">
+              <g>
+                <polyline fill="none" stroke="#4a5261" stroke-width="2" points="12,2 0,24 12,15 24,24 12,2">
+                </polyline>
+              </g>
+            </svg>
+            Карта
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="info-wrapper">
+      <div class="data">
+        <span id="day"></span>
+        <span id="num"></span>
+        <span id="month"></span>
+        <span id="year"></span>г.
+      </div>
+      <div class="temperature">6°<small>C</small></div>
+      <div class="week-weather">
+        <ul>
+          <li><a href="#"><img src="img/weather/wind.svg" alt="">21/04</a></li>
+          <li><a href="#"><img src="img/weather/sunny.svg" alt="">22/04</a></li>
+          <li><a href="#"><img src="img/weather/cloud.svg" alt="">23/04</a></li>
+          <li><a href="#"><img src="img/weather/rain.svg" alt="">24/04</a></li>
+          <li><a href="#"><img src="img/weather/snowflake.svg" alt="">25/04</a></li>
+          <li><a href="#"><img src="img/weather/sunny.svg" alt="">26/04</a></li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/Rain_animate.js"></script>
+
+</body>
+</html>
